@@ -10,25 +10,19 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'		" let Vundle manage Vundle, required
 
-"---------=== Code complete ===---------
-"Plugin 'Valloric/YouCompleteMe' 
-
 "---------=== Code/project navigation ===-------------
-Plugin 'scrooloose/nerdtree' 	    	" Project and file navigation
-Plugin 'Shougo/unite.vim' " Navigation between buffers and files
+Plugin 'scrooloose/nerdtree'          " Project and file navigation
+Plugin 'Shougo/unite.vim'             " Navigation between buffers and files
 Plugin 'majutsushi/tagbar'          	" Class/module browser
-
-"------------------=== Other ===----------------------
-Plugin 'bling/vim-airline'   	    	" Lean & mean status/tabline for vim
-Plugin 'fisadev/FixedTaskList.vim'  	" Pending tasks list
-Plugin 'rosenfeld/conque-term'      	" Consoles as buffers
-Plugin 'tpope/vim-surround'	   	" Parentheses, brackets, quotes, XML tags, and more
+Plugin 'valloric/youcompleteme'       " Code completion
+Plugin 'airblade/vim-gitgutter'       " Git change
+Plugin 'scrooloose/syntastic'         " Syntax checker
 
 "--------------=== Snippets support ===---------------
-Plugin 'garbas/vim-snipmate'		" Snippets manager
-Plugin 'MarcWeber/vim-addon-mw-utils'	" dependencies #1
-Plugin 'tomtom/tlib_vim'		" dependencies #2
-Plugin 'honza/vim-snippets'		" snippets repo
+Plugin 'garbas/vim-snipmate'            " Snippets manager
+Plugin 'MarcWeber/vim-addon-mw-utils'   " dependencies #1
+Plugin 'tomtom/tlib_vim'                " dependencies #2
+Plugin 'honza/vim-snippets'             " snippets repo
 
 "---------------=== Languages support ===-------------
 
@@ -38,12 +32,18 @@ Plugin 'klen/python-mode'               " Vim python-mode. PyLint, Rope, Pydoc, 
 Plugin 'mitsuhiko/vim-jinja'            " Jinja support for vim
 Plugin 'mitsuhiko/vim-python-combined'  " Combined Python 2/3 for Vim
 Plugin 'hynek/vim-python-pep8-indent'   " PEP8 indent
-Plugin 'jmcantrell/vim-virtualenv' " Virtualenv support in VIM
+Plugin 'jmcantrell/vim-virtualenv'      " Virtualenv support in VIM
 
+" --- RUST ---
+Plugin 'rust-lang/rust.vim'
+
+"------------------=== Other ===----------------------
+Plugin 'bling/vim-airline'               " Lean & mean status/tabline for vim
+Plugin 'fisadev/FixedTaskList.vim'       " Pending tasks list
+Plugin 'rosenfeld/conque-term'           " Consoles as buffers
+Plugin 'tpope/vim-surround'              " Parentheses, brackets, quotes, XML tags, and more
 Plugin 'nathanaelkane/vim-indent-guides' " A Vim plugin for visually displaying indent levels in code
-
-" --- GIT ---
-Plugin 'airblade/vim-gitgutter'
+Plugin 'tomasr/molokai'
 
 call vundle#end()            		" required
 filetype on
@@ -263,7 +263,6 @@ set imsearch=0
 highlight lCursor guifg=NONE guibg=Cyan
 
 set nowrap " чтобы строки не переносились
-
 let bsl_fold = 1
 
 setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
