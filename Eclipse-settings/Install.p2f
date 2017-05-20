@@ -1,7 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
-  <ius size='31'>
+  <ius size='40'>
+    <iu id='org.eclipse.babel.nls_eclipse_ru.feature.group' name='Babel Language Pack for eclipse in Russian (72.01%)' version='4.6.0.v20161126060001'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/technology/babel/update-site/R0.14.1/neon'/>
+      </repositories>
+    </iu>
     <iu id='org.eclipse.cdt.autotools.feature.group' name='C/C++ Autotools support' version='9.2.1.201704050430'>
       <repositories size='0'/>
     </iu>
@@ -11,11 +16,8 @@
     <iu id='org.eclipse.cdt.build.crossgcc.feature.group' name='C/C++ GCC Cross Compiler Support' version='9.2.1.201704050430'>
       <repositories size='0'/>
     </iu>
-    <iu id='org.eclipse.linuxtools.cdt.libhover.feature.feature.group' name='C/C++ Library API Documentation Hover Help' version='5.3.0.201703072040'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/neon/201703231000'/>
-        <repository location='http://download.eclipse.org/releases/neon'/>
-      </repositories>
+    <iu id='org.eclipse.linuxtools.cdt.libhover.feature.feature.group' name='C/C++ Library API Documentation Hover Help' version='5.3.1.201703301750'>
+      <repositories size='0'/>
     </iu>
     <iu id='org.eclipse.cdt.debug.ui.memory.feature.group' name='C/C++ Memory View Enhancements' version='9.2.1.201704050430'>
       <repositories size='0'/>
@@ -31,15 +33,17 @@
     <iu id='org.eclipse.cdt.debug.standalone.feature.group' name='CDT Standalone Debugger Support' version='9.2.1.201704050430'>
       <repositories size='0'/>
     </iu>
-    <iu id='org.eclipse.linuxtools.changelog.c.feature.group' name='ChangeLog Management Tools for C/C++' version='5.3.0.201703072040'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/neon/201703231000'/>
-        <repository location='http://download.eclipse.org/releases/neon'/>
-      </repositories>
+    <iu id='org.eclipse.linuxtools.changelog.c.feature.group' name='ChangeLog Management Tools for C/C++' version='5.3.1.201703301750'>
+      <repositories size='0'/>
     </iu>
     <iu id='com.cthing.cmakeed.feature.feature.group' name='CMake Editor' version='1.3.0'>
       <repositories size='1'>
         <repository location='http://sourceforge.net/projects/cmakeed/files/updates/'/>
+      </repositories>
+    </iu>
+    <iu id='com.googlecode.cppcheclipse.feature.feature.group' name='cppcheclipse' version='1.1.0.v20160724-1648'>
+      <repositories size='1'>
+        <repository location='https://dl.bintray.com/cppcheclipse/p2/updates/'/>
       </repositories>
     </iu>
     <iu id='com.genuitec.eclipse.theming.feature.feature.group' name='Darkest Dark Theme' version='1.8.0.201705081336'>
@@ -59,76 +63,94 @@
       </repositories>
     </iu>
     <iu id='epp.package.cpp' name='Eclipse IDE for C/C++ Developers' version='4.6.3.20170314-1500'>
-      <repositories size='1'>
+      <repositories size='2'>
         <repository location='http://download.eclipse.org/releases/neon'/>
+        <repository location='http://download.eclipse.org/technology/epp/packages/neon/'/>
       </repositories>
     </iu>
     <iu id='org.eclipse.platform.feature.group' name='Eclipse Platform' version='4.6.3.v20170301-0400'>
-      <repositories size='3'>
-        <repository location='http://download.eclipse.org/releases/neon/201703231000'/>
+      <repositories size='2'>
         <repository location='http://download.eclipse.org/releases/neon'/>
         <repository location='http://download.eclipse.org/eclipse/updates/4.6'/>
       </repositories>
     </iu>
     <iu id='org.eclipse.rcp.feature.group' name='Eclipse RCP' version='4.6.3.v20170301-0400'>
-      <repositories size='3'>
-        <repository location='http://download.eclipse.org/releases/neon/201703231000'/>
+      <repositories size='2'>
         <repository location='http://download.eclipse.org/releases/neon'/>
         <repository location='http://download.eclipse.org/eclipse/updates/4.6'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.linuxtools.gcov.feature.group' name='GCov Integration' version='5.3.0.201703072040'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/neon/201703231000'/>
-        <repository location='http://download.eclipse.org/releases/neon'/>
-      </repositories>
+    <iu id='org.eclipse.linuxtools.gcov.feature.group' name='GCov Integration' version='5.3.1.201703301750'>
+      <repositories size='0'/>
     </iu>
     <iu id='org.eclipse.tracecompass.gdbtrace.feature.group' name='GDB Tracepoint Analysis' version='2.3.0.201703072250'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/neon/201703231000'/>
+      <repositories size='1'>
         <repository location='http://download.eclipse.org/releases/neon'/>
       </repositories>
     </iu>
     <iu id='org.eclipse.egit.feature.group' name='Git integration for Eclipse' version='4.6.1.201703071140-r'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/neon/201703231000'/>
+      <repositories size='1'>
         <repository location='http://download.eclipse.org/releases/neon'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.linuxtools.gprof.feature.feature.group' name='GProf Integration' version='5.3.0.201703072040'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/neon/201703231000'/>
-        <repository location='http://download.eclipse.org/releases/neon'/>
-      </repositories>
+    <iu id='org.eclipse.linuxtools.gprof.feature.feature.group' name='GProf Integration' version='5.3.1.201703301750'>
+      <repositories size='0'/>
     </iu>
-    <iu id='org.eclipse.linuxtools.cdt.libhover.devhelp.feature.feature.group' name='Library Hover help for devhelp documentation' version='5.3.0.201703072040'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/neon/201703231000'/>
-        <repository location='http://download.eclipse.org/releases/neon'/>
-      </repositories>
+    <iu id='org.eclipse.linuxtools.cdt.libhover.devhelp.feature.feature.group' name='Library Hover help for devhelp documentation' version='5.3.1.201703301750'>
+      <repositories size='0'/>
     </iu>
     <iu id='org.eclipse.tracecompass.lttng2.kernel.feature.group' name='LTTng Kernel Analysis' version='2.3.0.201703072250'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/neon/201703231000'/>
+      <repositories size='1'>
         <repository location='http://download.eclipse.org/releases/neon'/>
       </repositories>
     </iu>
     <iu id='org.eclipse.tracecompass.lttng2.control.feature.group' name='LTTng Tracer Control' version='2.3.0.201703072250'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/neon/201703231000'/>
+      <repositories size='1'>
         <repository location='http://download.eclipse.org/releases/neon'/>
       </repositories>
     </iu>
     <iu id='org.eclipse.tracecompass.lttng2.ust.feature.group' name='LTTng Userspace Analysis' version='2.3.0.201703072250'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/neon/201703231000'/>
+      <repositories size='1'>
         <repository location='http://download.eclipse.org/releases/neon'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.oomph.setup.feature.group' name='Oomph Setup' version='1.7.0.v20170305-1123'>
-      <repositories size='3'>
-        <repository location='http://download.eclipse.org/releases/neon/201703231000'/>
+    <iu id='org.eclipse.cdt.mylyn.feature.group' name='Mylyn Context Connector: C/C++ Development' version='5.17.0.v20160701-1337'>
+      <repositories size='1'>
         <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.mylyn.ide_feature.feature.group' name='Mylyn Context Connector: Eclipse IDE' version='3.21.0.v20160912-1820'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.mylyn.team_feature.feature.group' name='Mylyn Context Connector: Team Support' version='3.21.0.v20160701-1337'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.mylyn_feature.feature.group' name='Mylyn Task List' version='3.21.0.v20160914-0252'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.mylyn.context_feature.feature.group' name='Mylyn Task-Focused Interface' version='3.21.0.v20160815-2336'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.mylyn.bugzilla_feature.feature.group' name='Mylyn Tasks Connector: Bugzilla' version='3.21.0.v20160909-1813'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.mylyn.wikitext_feature.feature.group' name='Mylyn WikiText' version='2.10.1.v20161129-1925'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.oomph.setup.feature.group' name='Oomph Setup' version='1.8.0.v20170410-0909'>
+      <repositories size='1'>
         <repository location='http://download.eclipse.org/oomph/updates/milestone/latest'/>
       </repositories>
     </iu>
@@ -137,34 +159,26 @@
         <repository location='http://www.pydev.org/updates/'/>
       </repositories>
     </iu>
-    <iu id='org.python.pydev.mylyn.feature.feature.group' name='Pydev Mylyn Integration' version='0.6.0'>
-      <repositories size='1'>
-        <repository location='http://www.pydev.org/updates/'/>
-      </repositories>
-    </iu>
     <iu id='org.eclipse.rse.feature.group' name='Remote System Explorer End-User Runtime' version='3.7.2.201610260947'>
-      <repositories size='3'>
-        <repository location='http://download.eclipse.org/releases/neon/201612211000'/>
-        <repository location='http://download.eclipse.org/releases/neon/201703231000'/>
+      <repositories size='1'>
         <repository location='http://download.eclipse.org/releases/neon'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.linuxtools.rpm.feature.group' name='RPM Tools' version='5.3.0.201703072040'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/neon/201703231000'/>
-        <repository location='http://download.eclipse.org/releases/neon'/>
-      </repositories>
+    <iu id='org.eclipse.linuxtools.rpm.feature.group' name='RPM Tools' version='5.3.1.201703301750'>
+      <repositories size='0'/>
     </iu>
     <iu id='com.github.rustdt.feature.group' name='RustDT' version='0.8.1.v201612291856'>
       <repositories size='1'>
         <repository location='https://rustdt.github.io/releases/'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.linuxtools.valgrind.feature.group' name='Valgrind Tools Integration' version='5.3.0.201703072040'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/neon/201703231000'/>
-        <repository location='http://download.eclipse.org/releases/neon'/>
+    <iu id='nl.usetechnology.cmake.feature.feature.group' name='USE CMake Eclipse Support' version='1.0.22.201702281452'>
+      <repositories size='1'>
+        <repository location='http://cmake-helper.eu/releases/1.0'/>
       </repositories>
+    </iu>
+    <iu id='org.eclipse.linuxtools.valgrind.feature.group' name='Valgrind Tools Integration' version='5.3.1.201703301750'>
+      <repositories size='0'/>
     </iu>
   </ius>
 </p2f>
