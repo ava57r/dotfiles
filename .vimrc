@@ -44,6 +44,7 @@ Plugin 'rosenfeld/conque-term'           " Consoles as buffers
 Plugin 'tpope/vim-surround'              " Parentheses, brackets, quotes, XML tags, and more
 Plugin 'nathanaelkane/vim-indent-guides' " A Vim plugin for visually displaying indent levels in code
 Plugin 'tomasr/molokai'
+Plugin 'nickhutchinson/vim-cmake-syntax' " Vim syntax highlighting rules for modern CMake.
 
 call vundle#end()              " required
 filetype on
